@@ -1,0 +1,268 @@
+{
+  "project": {
+    "he": {
+      "eyebrow": "מפת המחקר",
+      "lead": "אלפא ביתא של השמות: מהדורה ומערכת מחקר",
+      "overview": "הפרויקט מעמיד לרשות החוקרים שני חיבורים לקסיקליים של ר׳ משה זכות, ומקשר בין הטקסטים לבין זיהויים מחקריים של שמות, מקורות, שיטות הפקה, זיקות קבליות ושימושים מעשיים. מטרתו לאפשר קריאה של כל ערך בהקשרו, לצד חיפוש מושגי, השוואה וקריאה רחוקה של הקורפוס.",
+      "second": "המאגר נוצר במסגרת שיתוף פעולה מחקרי גרמני : ישראלי, בתמיכת קרן המחקר הגרמנית (DFG, מענק 399155321). המהדורה הדיגיטלית פותחה בסיוע מעבדת אליהו למדעי הרוח הדיגיטליים באוניברסיטת חיפה."
+    },
+    "en": {
+      "eyebrow": "RESEARCH ATLAS",
+      "lead": "The Lexicon of Holy Names: a scholarly edition and research environment",
+      "overview": "The project makes two lexicographical works by Rabbi Moses Zacuto available for research, linking their texts to scholarly annotations identifying names, sources, methods of deriving names, Kabbalistic associations, and practical uses. It supports contextual reading of individual entries alongside structured search, comparison, and distant reading.",
+      "second": "The corpus originated in a German : Israeli research collaboration funded by the German Research Foundation (DFG, grant 399155321). Digital development was supported by the Elijah Lab for Digital Humanities at the University of Haifa."
+    }
+  },
+  "manuscripts": [
+    {
+      "key": "SH",
+      "he": {
+        "title": "אלפא ביתא של השמות",
+        "subtitle": "כתב יד ירושלים, הספרייה הלאומית, 615",
+        "desc": "החיבור הלקסיקלי המקיף של זכות על שמות קדושים. המהדורה הדיגיטלית כוללת 446 ערכים מן החיבור, ומאפשרת לבחון את מקורות השמות, שיטות הפקתם, זיקותיהם ומשמעויותיהם.",
+        "note": "סריקות כתב היד עדיין אינן משולבות בממשק."
+      },
+      "en": {
+        "title": "Alphabet of the Names",
+        "subtitle": "Jerusalem, National Library of Israel, MS 615",
+        "desc": "Zacuto’s extensive alphabetical lexicon of holy names. The digital corpus contains 446 entries, with annotations for sources, derivation methods, associations, and uses.",
+        "note": "Manuscript images have not yet been linked to the edition."
+      }
+    },
+    {
+      "key": "CFN",
+      "he": {
+        "title": "פירוש קצת שמות",
+        "subtitle": "כתב יד מוסקבה, אוסף גינצבורג, 1448",
+        "desc": "החיבור הקצר, שנשתמר בכתב ידו של זכות, מייצג שלב מוקדם במפעלו הלקסיקלי. במאגר נכללים 23 ערכים, שאפשר לקרוא ולהשוות אל הערכים המקבילים בחיבור הגדול.",
+        "note": "נדרש להשלים תיאור קודיקולוגי וקישורים לסריקות."
+      },
+      "en": {
+        "title": "Commentary on a Few Names",
+        "subtitle": "Moscow, Günzburg Collection, MS 1448",
+        "desc": "This short work, preserved in Zacuto’s autograph manuscript, represents an early stage in his lexicographical enterprise. The corpus contains 23 entries that can be read and compared with the later lexicon.",
+        "note": "A codicological description and links to images are forthcoming."
+      }
+    }
+  ],
+  "team": [
+    {
+      "id": "yuval",
+      "he": "יובל הררי",
+      "en": "Yuval Harari",
+      "position": {
+        "he": "פרופ׳ · אוניברסיטת בן־גוריון בנגב",
+        "en": "Professor · Ben-Gurion University of the Negev"
+      },
+      "desc": {
+        "he": "שותף מוביל בפרויקט; מחקר של מסורות מאגיות וקבלה מעשית.",
+        "en": "Principal collaborator; research on Jewish magical traditions and practical Kabbalah."
+      },
+      "group": "lead",
+      "profile": "https://bgu.academia.edu/YuvalHarari",
+      "portrait_source": "https://iias.huji.ac.il/people/yuval-harari?ref_tid=9473",
+      "portrait_credit": "Israel Institute for Advanced Studies, Hebrew University"
+    },
+    {
+      "id": "gerold",
+      "he": "גרולד נקר",
+      "en": "Gerold Necker",
+      "position": {
+        "he": "פרופ׳ · אוניברסיטת מרטין לותר, האלה־ויטנברג",
+        "en": "Professor · Martin Luther University Halle-Wittenberg"
+      },
+      "desc": {
+        "he": "שותף מוביל בפרויקט; חקר הקבלה והמסורות הטקסטואליות של זכות.",
+        "en": "Principal collaborator; research on Kabbalah and Zacuto’s textual traditions."
+      },
+      "group": "lead",
+      "profile": "https://www.judaistik.uni-halle.de/forschungsprojekte/encyclopedic_magic/",
+      "portrait_url": "https://kabbalaheditions.org/images/necker.jpg",
+      "portrait_source": "https://www.judaistik.uni-halle.de/mitarbeiter/necker/",
+      "portrait_credit": "Gerold Necker / institutional academic profile"
+    },
+    {
+      "id": "eliezer",
+      "he": "אליעזר באומגרטן",
+      "en": "Eliezer Baumgarten",
+      "position": {
+        "he": "ד״ר · אוניברסיטת חיפה",
+        "en": "Dr. · University of Haifa"
+      },
+      "desc": {
+        "he": "מחקר כתבי היד והמסורות הקבליות ופיתוח סביבת המחקר הדיגיטלית.",
+        "en": "Research on manuscripts and Kabbalistic traditions; digital research environment."
+      },
+      "group": "research",
+      "profile": "https://haifa.academia.edu/eliezerbaumgarten",
+      "portrait_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3uQHugpowu56XjzDRiXaC1sPaSAr00yk0ErnLbdwh5A&s=10",
+      "portrait_source": "https://elijahlab.haifa.ac.il/"
+    },
+    {
+      "id": "uri",
+      "he": "אורי ספראי",
+      "en": "Uri Safrai",
+      "position": {
+        "he": "ד״ר · מכללת הרצוג",
+        "en": "Dr. · Herzog College"
+      },
+      "desc": {
+        "he": "חוקר בצוות המהדורה; שותף למחקר על מפעל השמות של זכות.",
+        "en": "Edition research team; co-author of studies on Zacuto’s lexicon of names."
+      },
+      "group": "research",
+      "profile": "https://www.herzog.ac.il/staff/%D7%93%D7%A8-%D7%90%D7%95%D7%A8%D7%99-%D7%A1%D7%A4%D7%A8%D7%90%D7%99/",
+      "portrait_source": "https://www.herzog.ac.il/en/staff/dr-uri-safrai/",
+      "portrait_credit": "Herzog College"
+    },
+    {
+      "id": "chen",
+      "he": "חן אביזוהר־חגי",
+      "en": "Chen Avizohar-Hagay",
+      "position": {
+        "he": "ד״ר · אוניברסיטת בן־גוריון בנגב",
+        "en": "Dr. · Ben-Gurion University of the Negev"
+      },
+      "desc": {
+        "he": "חוקרת בצוות הפרויקט. תיאור תחומי האחריות יורחב בהמשך.",
+        "en": "Research team member. A fuller description of her work will be added."
+      },
+      "group": "research",
+      "profile": ""
+    },
+    {
+      "id": "hadar",
+      "he": "הדר מילר",
+      "en": "Hadar Miller",
+      "position": {
+        "he": "פיתוח דיגיטלי · מעבדת אליהו למדעי הרוח הדיגיטליים",
+        "en": "Digital development · Elijah Lab for Digital Humanities"
+      },
+      "desc": {
+        "he": "שותפה לפיתוח התשתית הדיגיטלית של המאגר המקורי.",
+        "en": "Contributed to development of the original digital database."
+      },
+      "group": "digital",
+      "profile": "https://elijahlab.haifa.ac.il/",
+      "portrait_url": "https://elijahlab.haifa.ac.il/wp-content/uploads/2026/05/1-e1777892333219-253x300.png",
+      "portrait_source": "https://elijahlab.haifa.ac.il/"
+    },
+    {
+      "id": "maximilian",
+      "he": "מקסימיליאן דה־מולייר",
+      "en": "Maximilian de Molière",
+      "position": {
+        "he": "חוקר פרויקט · אוניברסיטת האלה־ויטנברג",
+        "en": "Project researcher · Martin Luther University Halle-Wittenberg"
+      },
+      "desc": {
+        "he": "חקר כתבי היד, ההתכתבות ומסירת הידע של ר׳ משה זכות.",
+        "en": "Research on Zacuto’s correspondence, manuscripts, and transmission of knowledge."
+      },
+      "group": "research",
+      "profile": "https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/",
+      "portrait_source": "https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/",
+      "portrait_credit": "Martin Luther University Halle-Wittenberg"
+    },
+    {
+      "id": "vladislav",
+      "he": "ולדיסלב (זאב) סלֶפּוי",
+      "en": "Vladislav (Zeev) Slepoy",
+      "position": {
+        "he": "חוקר פרויקט · אוניברסיטת האלה־ויטנברג",
+        "en": "Project researcher · Martin Luther University Halle-Wittenberg"
+      },
+      "desc": {
+        "he": "חוקר קבלה והלכה, חבר בפרויקט ״Encyclopedic Magic״ על זכות.",
+        "en": "Research on Kabbalah and halakhah; member of the Zacuto Encyclopedic Magic project."
+      },
+      "group": "research",
+      "profile": "https://www.judaistik.uni-halle.de/mitarbeiter/slepoy/",
+      "portrait_source": "https://www.judaistik.uni-halle.de/mitarbeiter/slepoy/",
+      "portrait_credit": "Martin Luther University Halle-Wittenberg"
+    }
+  ],
+  "papers": [
+    {
+      "year": "2020",
+      "he": "אלפא ביתא של השמות לר' משה זכות: לקסיקליות, שמות קדושים וקבלה מעשית",
+      "en": "Alphabet of the Names by Moses Zacuto: Lexicality, Holy Names, and Practical Kabbalah",
+      "authors_he": "אליעזר באומגרטן, יובל הררי ואורי ספראי",
+      "authors_en": "Eliezer Baumgarten, Yuval Harari, and Uri Safrai",
+      "journal": "דעת / Daat 90, 397 : 425",
+      "url": "",
+      "status": "bibliography"
+    },
+    {
+      "year": "2020",
+      "he": "ר׳ משה זכות והחוג הקבלי באמסטרדם",
+      "en": "Rabbi Moshe Zacuto and the Kabbalistic Circle of Amsterdam",
+      "authors_he": "אליעזר באומגרטן ואורי ספראי",
+      "authors_en": "Eliezer Baumgarten and Uri Safrai",
+      "journal": "Studia Rosenthaliana 46, 29 : 49",
+      "url": "https://doi.org/10.5117/SR2020.1-2.002.BAUM",
+      "status": "published"
+    },
+    {
+      "year": "2024",
+      "he": "פירוש קצת שמות: על ראשית מפעל מילון השמות הקדושים של זכות",
+      "en": "A Commentary on a Few Names: On the Beginning of Zacuto’s Lexicon of Holy Names",
+      "authors_he": "אליעזר באומגרטן, יובל הררי ואורי ספראי",
+      "authors_en": "Eliezer Baumgarten, Yuval Harari, and Uri Safrai",
+      "journal": "Jewish Studies Quarterly 31(2), 160 : 186",
+      "url": "https://doi.org/10.1628/jsq-2024-0009",
+      "status": "published"
+    }
+  ],
+  "logos": [
+    {
+      "id": "halle",
+      "he": "אוניברסיטת האלה־ויטנברג",
+      "en": "Martin Luther University Halle-Wittenberg",
+      "file": "assets/logos/mlu.png",
+      "original": "https://blogs.urz.uni-halle.de/mastercgt/files/2026/01/MLU_Wort-Bild-Marke_Zentriert_Schutzraum_RGB-1568x797.jpg",
+      "link": "https://www.uni-halle.de/",
+      "kind": "partner"
+    },
+    {
+      "id": "bgu",
+      "he": "אוניברסיטת בן־גוריון בנגב",
+      "en": "Ben-Gurion University of the Negev",
+      "file": "assets/logos/bgu.png",
+      "original": "https://www.bgu.ac.il/media/bmvglo0k/heb-en.png",
+      "link": "https://www.bgu.ac.il/",
+      "kind": "partner"
+    },
+    {
+      "id": "dfg",
+      "he": "קרן המחקר הגרמנית (DFG)",
+      "en": "German Research Foundation (DFG)",
+      "file": "assets/logos/dfg.png",
+      "original": "https://www.dfg.de/resource/blob/323898/7f485f2c1ef735fa38ba7d587cf5bd76/logo-dfg-data.jpg",
+      "link": "https://www.dfg.de/",
+      "kind": "partner"
+    },
+    {
+      "id": "elijah",
+      "he": "מעבדת אליהו למדעי הרוח הדיגיטליים",
+      "en": "Elijah Lab for Digital Humanities",
+      "file": "assets/logos/elijah-lab.png",
+      "original": "",
+      "link": "https://elijahlab.haifa.ac.il/",
+      "kind": "partner"
+    }
+  ],
+  "links": {
+    "source": "https://zacut.dhlab.info/",
+    "funding": "https://www.judaistik.uni-halle.de/forschungsprojekte/encyclopedic_magic/"
+  },
+  "identity": {
+    "id": "kabbalah-editions",
+    "label": "Kabbalah Editions",
+    "image": "assets/logos/kabbalah-editions.png",
+    "description": {
+      "he": "מפעל המהדורות : קבלה אדישנס",
+      "en": "The digital editions initiative"
+    }
+  }
+}

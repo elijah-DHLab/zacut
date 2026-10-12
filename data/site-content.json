@@ -60,8 +60,10 @@
       },
       "group": "lead",
       "profile": "https://bgu.academia.edu/YuvalHarari",
-      "portrait_source": "https://iias.huji.ac.il/people/yuval-harari?ref_tid=9473",
-      "portrait_credit": "Israel Institute for Advanced Studies, Hebrew University"
+      "portrait_source": "https://bgu.academia.edu/YuvalHarari",
+      "portrait_credit": "Academia.edu",
+      "portrait_url": "https://0.academia-photos.com/1102682/2073098/7223934/s200_yuval.harari.jpg",
+      "portrait_delivery": "remote-direct"
     },
     {
       "id": "gerold",
@@ -113,7 +115,9 @@
       "group": "research",
       "profile": "https://www.herzog.ac.il/staff/%D7%93%D7%A8-%D7%90%D7%95%D7%A8%D7%99-%D7%A1%D7%A4%D7%A8%D7%90%D7%99/",
       "portrait_source": "https://www.herzog.ac.il/en/staff/dr-uri-safrai/",
-      "portrait_credit": "Herzog College"
+      "portrait_credit": "Herzog College",
+      "portrait_url": "https://www.herzog.ac.il/wp-content/uploads/2025/10/%D7%90%D7%95%D7%A8%D7%99-%D7%A1%D7%A4%D7%A8%D7%90%D7%99-scaled.jpg",
+      "portrait_delivery": "remote-direct"
     },
     {
       "id": "chen",
@@ -161,8 +165,10 @@
       },
       "group": "research",
       "profile": "https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/",
-      "portrait_source": "https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/",
-      "portrait_credit": "Martin Luther University Halle-Wittenberg"
+      "portrait_source": "https://azrielifoundation.org/",
+      "portrait_credit": "Azrieli Foundation",
+      "portrait_url": "https://azrielifoundation.org/wp-content/uploads/2025/05/Maximillian-de-Moliere.jpg",
+      "portrait_delivery": "remote-direct"
     },
     {
       "id": "vladislav",
@@ -179,39 +185,179 @@
       "group": "research",
       "profile": "https://www.judaistik.uni-halle.de/mitarbeiter/slepoy/",
       "portrait_source": "https://www.judaistik.uni-halle.de/mitarbeiter/slepoy/",
-      "portrait_credit": "Martin Luther University Halle-Wittenberg"
+      "portrait_credit": "Martin Luther University Halle-Wittenberg",
+      "portrait_url": "https://www.judaistik.uni-halle.de/im/1539989602_1486_0.jpg",
+      "portrait_delivery": "remote-direct"
     }
   ],
   "papers": [
     {
-      "year": "2020",
-      "he": "אלפא ביתא של השמות לר' משה זכות: לקסיקליות, שמות קדושים וקבלה מעשית",
-      "en": "Alphabet of the Names by Moses Zacuto: Lexicality, Holy Names, and Practical Kabbalah",
-      "authors_he": "אליעזר באומגרטן, יובל הררי ואורי ספראי",
-      "authors_en": "Eliezer Baumgarten, Yuval Harari, and Uri Safrai",
-      "journal": "דעת / Daat 90, 397 : 425",
-      "url": "",
-      "status": "bibliography"
+      "id": "binding-letters-2025",
+      "year": "2025",
+      "he": "Binding Letters, Binding Words: Explorations in the Life, Thought, and Writings of Moses Zacuto",
+      "en": "Binding Letters, Binding Words: Explorations in the Life, Thought, and Writings of Moses Zacuto",
+      "authors_he": "בעריכת יובל הררי וגרולד נקר",
+      "authors_en": "Edited by Yuval Harari and Gerold Necker",
+      "journal": "Harrassowitz · Studies in Magic and Kabbalah 3 · ISBN 978-3-447-12478-2",
+      "url": "https://harrassowitz-verlag.de/Binding_Letters_Binding_Words/title_9123.ahtml",
+      "category": "project",
+      "kind": "book",
+      "pages": "",
+      "verified_by": "Publisher Harrassowitz"
     },
     {
+      "id": "paths-2025",
+      "year": "2025",
+      "he": "On the Paths and Works of R. Moses Zacuto",
+      "en": "On the Paths and Works of R. Moses Zacuto",
+      "authors_he": "אליעזר באומגרטן, יובל הררי ואורי ספראי",
+      "authors_en": "Eliezer Baumgarten, Yuval Harari, and Uri Safrai",
+      "journal": "Binding Letters, Binding Words, pp. 1–30",
+      "url": "https://www.researchgate.net/publication/401302403_On_the_Paths_and_Works_of_R_Moses_Zacuto",
+      "category": "project",
+      "kind": "chapter",
+      "pages": "1–30",
+      "verified_by": "Ben-Gurion University and ResearchGate"
+    },
+    {
+      "id": "formation-2025",
+      "year": "2025",
+      "he": "The Formation of Erkhei ha-Kinnuyim: Between Nathan Shapira and Moses Zacuto",
+      "en": "The Formation of Erkhei ha-Kinnuyim: Between Nathan Shapira and Moses Zacuto",
+      "authors_he": "אליעזר באומגרטן ואורי ספראי",
+      "authors_en": "Eliezer Baumgarten and Uri Safrai",
+      "journal": "Binding Letters, Binding Words, pp. 31–50",
+      "url": "https://www.researchgate.net/publication/401300401_The_Formation_of_Erkhei_ha-Kinnuyim_Between_Nathan_Shapira_and_Moses_Zacuto",
+      "category": "project",
+      "kind": "chapter",
+      "pages": "31–50",
+      "verified_by": "ResearchGate bibliographic record"
+    },
+    {
+      "id": "voices-2025",
+      "year": "2025",
+      "he": "“Voices That Draw Near the Heart”: Epistolarity and the Transmission of Knowledge in the Correspondence of Moses Zacuto",
+      "en": "“Voices That Draw Near the Heart”: Epistolarity and the Transmission of Knowledge in the Correspondence of Moses Zacuto",
+      "authors_he": "מקסימיליאן דה־מולייר",
+      "authors_en": "Maximilian de Molière",
+      "journal": "Binding Letters, Binding Words, pp. 51–134",
+      "url": "https://www.jewisharabiccultures.fak12.uni-muenchen.de/team/de-moliere-maximilian/",
+      "category": "project",
+      "kind": "chapter",
+      "pages": "51–134",
+      "verified_by": "LMU Munich researcher profile"
+    },
+    {
+      "id": "amulet-2025",
+      "year": "2025",
+      "he": "How to Write an Amulet: The “Book of Amulets” by R. Moses Zacuto",
+      "en": "How to Write an Amulet: The “Book of Amulets” by R. Moses Zacuto",
+      "authors_he": "יובל הררי",
+      "authors_en": "Yuval Harari",
+      "journal": "Binding Letters, Binding Words, pp. 185–242",
+      "url": "https://cris.bgu.ac.il/en/persons/yuval-harari-5/",
+      "category": "project",
+      "kind": "chapter",
+      "pages": "185–242",
+      "verified_by": "Ben-Gurion University research portal"
+    },
+    {
+      "id": "hanukkah-2025",
+      "year": "2025",
+      "he": "The Secrets of Hanukkah: A Lurianic Homily in the Workshop of R. Moses Zacuto",
+      "en": "The Secrets of Hanukkah: A Lurianic Homily in the Workshop of R. Moses Zacuto",
+      "authors_he": "גרולד נקר",
+      "authors_en": "Gerold Necker",
+      "journal": "Binding Letters, Binding Words, pp. 243–310",
+      "url": "https://www.nli.org.il/en/articles/RAMBI997014671421705171/NLI",
+      "category": "project",
+      "kind": "chapter",
+      "pages": "243–310",
+      "verified_by": "NLI RAMBI catalogue; ResearchGate chapter metadata"
+    },
+    {
+      "id": "alphabet-2020",
       "year": "2020",
-      "he": "ר׳ משה זכות והחוג הקבלי באמסטרדם",
+      "he": "אלפא ביתא של השמות לר' משה זכות: לקסיקליות, שמות קדושים וקבלה מעשית",
+      "en": "Zacuto’s Alpha Beta shel ha-Shemot: Lexicality, Holy Names and Practical Kabbalah",
+      "authors_he": "אליעזר באומגרטן, יובל הררי ואורי ספראי",
+      "authors_en": "Eliezer Baumgarten, Yuval Harari, and Uri Safrai",
+      "journal": "דעת / Daat 90, pp. 397–425",
+      "url": "https://cris.bgu.ac.il/en/publications/%D7%90%D7%9C%D7%A4%D7%90-%D7%91%D7%99%D7%AA%D7%90-%D7%A9%D7%9C-%D7%94%D7%A9%D7%9E%D7%95%D7%AA-%D7%9C%D7%A8-%D7%9E%D7%A9%D7%94-%D7%96%D7%9B%D7%95%D7%AA-%D7%9C%D7%A7%D7%A1%D7%99%D7%A7%D7%9C%D7%99%D7%95%D7%AA-%D7%A9%D7%9E%D7%95%D7%AA-%D7%A7%D7%93%D7%95%D7%A9%D7%99%D7%9D-%D7%95%D7%A7%D7%91%D7%9C%D7%94-%D7%9E%D7%A2%D7%A9%D7%99%D7%AA/",
+      "category": "project",
+      "kind": "article",
+      "pages": "397–425",
+      "verified_by": "Ben-Gurion University institutional catalogue"
+    },
+    {
+      "id": "amsterdam-2020",
+      "year": "2020",
+      "he": "Rabbi Moshe Zacuto and the Kabbalistic Circle of Amsterdam",
       "en": "Rabbi Moshe Zacuto and the Kabbalistic Circle of Amsterdam",
       "authors_he": "אליעזר באומגרטן ואורי ספראי",
       "authors_en": "Eliezer Baumgarten and Uri Safrai",
-      "journal": "Studia Rosenthaliana 46, 29 : 49",
+      "journal": "Studia Rosenthaliana 46, pp. 29–49",
       "url": "https://doi.org/10.5117/SR2020.1-2.002.BAUM",
-      "status": "published"
+      "category": "project",
+      "kind": "article",
+      "pages": "29–49",
+      "verified_by": "Publisher DOI and original bibliography"
     },
     {
+      "id": "few-names-2024",
       "year": "2024",
-      "he": "פירוש קצת שמות: על ראשית מפעל מילון השמות הקדושים של זכות",
-      "en": "A Commentary on a Few Names: On the Beginning of Zacuto’s Lexicon of Holy Names",
+      "he": "Commentary on a Few Names: On the Beginning of Zacuto’s Lexicon of Holy Names",
+      "en": "Commentary on a Few Names: On the Beginning of Zacuto’s Lexicon of Holy Names",
       "authors_he": "אליעזר באומגרטן, יובל הררי ואורי ספראי",
       "authors_en": "Eliezer Baumgarten, Yuval Harari, and Uri Safrai",
-      "journal": "Jewish Studies Quarterly 31(2), 160 : 186",
+      "journal": "Jewish Studies Quarterly 31(2), pp. 160–186",
       "url": "https://doi.org/10.1628/jsq-2024-0009",
-      "status": "published"
+      "category": "project",
+      "kind": "article",
+      "pages": "160–186",
+      "verified_by": "Ben-Gurion University academic record / publisher DOI"
+    },
+    {
+      "id": "creation-demons-2020",
+      "year": "2020",
+      "he": "The “Secret of the Creation of the Demons”: A Chapter in an Anonymous Lurianic Treatise Adapted by Moses Zacuto",
+      "en": "The “Secret of the Creation of the Demons”: A Chapter in an Anonymous Lurianic Treatise Adapted by Moses Zacuto",
+      "authors_he": "גרולד נקר",
+      "authors_en": "Gerold Necker",
+      "journal": "Jewish Thought 2, pp. 93–111",
+      "url": "https://in.bgu.ac.il/en/humsos/goldstein-goren/books/JT2%20Full%20English%2013.12.2020.pdf",
+      "category": "related",
+      "kind": "article",
+      "pages": "93–111",
+      "verified_by": "BGU hosted original journal PDF"
+    },
+    {
+      "id": "matrix-2022",
+      "year": "2022",
+      "he": "The Matrix of Understanding: Moses Zacuto’s Em la-Binah and Kabbalistic Works of Reference",
+      "en": "The Matrix of Understanding: Moses Zacuto’s Em la-Binah and Kabbalistic Works of Reference",
+      "authors_he": "גרולד נקר",
+      "authors_en": "Gerold Necker",
+      "journal": "European Journal of Jewish Studies 16(1), pp. 114–141",
+      "url": "https://doi.org/10.1163/1872471X-bja10031",
+      "category": "related",
+      "kind": "article",
+      "pages": "114–141",
+      "verified_by": "Brill journal metadata, author publication list"
+    },
+    {
+      "id": "author-reader-2024",
+      "year": "2024",
+      "he": "The Author, the Reader, Their Text, and Its Editor: The Case of R. Moses Zacuto’s Kabbalistic Correspondence",
+      "en": "The Author, the Reader, Their Text, and Its Editor: The Case of R. Moses Zacuto’s Kabbalistic Correspondence",
+      "authors_he": "גרולד נקר",
+      "authors_en": "Gerold Necker",
+      "journal": "Editing Kabbalistic Texts (Harrassowitz), pp. 249–269",
+      "url": "https://www.judaistik.uni-halle.de/mitarbeiter/necker/",
+      "category": "related",
+      "kind": "chapter",
+      "pages": "249–269",
+      "verified_by": "Author official Halle University publications"
     }
   ],
   "logos": [

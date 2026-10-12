@@ -492,3 +492,84 @@ button.chart-row:hover .chart-fill{filter:brightness(1.28);transform:scaleX(.97)
 .orbit-node.visited circle:first-child{stroke:#b15b4b;stroke-width:3}
 @media(max-width:680px){.atlas-journey{padding:12px}.atlas-journey-step{max-width:120px}.atlas-journey-steps{gap:3px}.atlas-neighbor-row{padding:8px}.atlas-neighbor-score{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.atlas-journey-step,.atlas-neighbor-row,.atlas-evidence-entry{transition:none}}
+
+/* v14: five-letter words remain complete and centered inside the letter machine. */
+
+
+.page-intro 
+.about-hero 
+.publications-intro{max-width:760px;color:var(--dim);font-size:14px;line-height:1.8;margin:17px 0 0}
+.publication-book{display:grid;grid-template-columns:minmax(200px,32%) 1fr;gap:clamp(24px,5vw,74px);border:1px solid #d2c4b5;background:linear-gradient(122deg,#e4ddce,#f4eee3 55%,#faf8f4);padding:clamp(22px,4vw,46px);align-items:center;margin:0 0 55px;box-shadow:0 10px 33px #162d3d0e}
+.publication-book-mark{background:linear-gradient(155deg,#193544,#294657);min-height:310px;padding:25px 24px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;color:#f9eee0;box-shadow:8px 10px 0 #a45c4d25}
+.publication-book-mark::after{content:'';position:absolute;width:210px;height:210px;border:1px solid #b6816c;border-radius:50%;right:-100px;top:43px;box-shadow:0 0 0 35px #ffffff07,0 0 0 66px #ffffff05}
+.publication-book-mark>span{color:#ce9a86;font:600 10px Georgia,serif;letter-spacing:.16em}
+.publication-book-mark strong{font:700 clamp(33px,4vw,57px)/.96 Georgia,serif;letter-spacing:-.055em;position:relative;z-index:1}
+.publication-book-mark small{color:#c6c3b9;letter-spacing:.14em;font:10px Georgia,serif}
+.publication-book-text h3{font:700 clamp(26px,3.3vw,43px)/1.3 var(--serif);letter-spacing:-.02em;margin:17px 0 20px}
+.publication-book-text p{color:var(--ink-2);font-size:14px;line-height:1.9}
+.publication-book-text .book-meta{font-size:12px;color:var(--dim)}
+.publication-book-link{display:inline-flex;margin-top:15px;border-bottom:1px solid var(--copper);color:var(--ink);font:700 13px/2 var(--sans)}
+.publications-section-title{margin:44px 0 22px;max-width:900px}
+.publications-section-title>span{font:11px Georgia,serif;color:var(--copper);letter-spacing:.12em}
+.publications-section-title h3{font:700 clamp(26px,3vw,40px)/1.4 var(--serif);margin:9px 0 7px}
+.publications-section-title p{font:13px/1.8 var(--sans);color:var(--dim)}
+.publications-related{margin-top:75px}
+.paper-card-copy{min-width:0}
+.paper-card h3{overflow-wrap:anywhere}
+@media(max-width:750px){.publication-book{grid-template-columns:1fr}.publication-book-mark{min-height:260px;max-width:430px;width:100%}.publication-book-mark strong{font-size:45px}}
+@media(max-width:550px){.publication-book{padding:19px}.publication-book-mark{min-height:230px}.publication-book-mark strong{font-size:41px}.publications-related{margin-top:52px}}
+
+/* ==== ZACUT V15: Letter machine, seals and dictionary alphabet ==== */
+/* A five-letter word keeps EXACTLY the font-size of a four-letter word in its own machine. */
+.engine .engine-word[data-letter-count="5"]{left:50%;top:46%;transform:translate(-50%,-50%);font-size:inherit;letter-spacing:-.235em;max-width:none;width:max-content;white-space:nowrap;text-align:center}
+.hero-engine .engine-word[data-letter-count="5"]{font-size:clamp(165px,18vw,335px)}
+.page-intro .engine .engine-word[data-letter-count="5"]{font-size:clamp(85px,9vw,145px);top:49%}
+.about-hero .engine .engine-word[data-letter-count="5"]{font-size:clamp(118px,15vw,220px);top:48%}
+@media(max-width:850px){.hero-engine .engine-word[data-letter-count="5"]{font-size:clamp(135px,34vw,280px)}.page-intro .engine .engine-word[data-letter-count="5"]{font-size:75px}}
+@media(max-width:550px){.page-intro .engine .engine-word[data-letter-count="5"]{font-size:75px}}
+.engine:has(.engine-hit:hover) .engine-word[data-letter-count="5"]{transform:translate(-50%,-50%) scale(1.018)}
+/* Letter seals: one letter size across four and five character stamps. */
+.name-seal{--seal-size:47px;--seal-font:15px;width:var(--seal-size);height:var(--seal-size);display:inline-flex;align-items:center;justify-content:center;flex:none;position:relative;vertical-align:middle;color:#345465;isolation:isolate}
+.name-seal svg{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;pointer-events:none}
+.name-seal__letters{z-index:1;direction:rtl;display:flex;align-items:center;justify-content:center;width:max-content;line-height:1;white-space:nowrap;letter-spacing:-.075em;font-family:var(--serif);font-size:var(--seal-font);font-weight:800;color:var(--ink);transform:translateY(-1px)}
+.name-seal__letters em{display:inline-block;font-style:normal}
+.name-seal__letters[data-letter-count="5"]{letter-spacing:-.21em}
+.name-seal--edition{--seal-size:79px;--seal-font:24px}
+.name-seal--chapter{--seal-size:112px;--seal-font:47px}
+.name-seal--detail{--seal-size:94px;--seal-font:28px}
+.name-seal--result{--seal-size:49px;--seal-font:14px}
+.name-seal--row{--seal-size:39px;--seal-font:12px}
+.name-seal--chapter .name-seal__letters{font-size:47px}
+.name-seal--join .name-seal__letters em{animation:seal-letter-join .84s cubic-bezier(.17,.76,.22,1) both;animation-delay:calc(var(--n)*48ms)}
+.name-seal--join .name-seal__letters em:nth-child(odd){--fromX:-14px;--fromY:-17px;--fromR:-15deg}
+.name-seal--join .name-seal__letters em:nth-child(even){--fromX:13px;--fromY:19px;--fromR:17deg}
+@keyframes seal-letter-join{0%{opacity:.04;transform:translate(var(--fromX),var(--fromY)) rotate(var(--fromR))}76%{opacity:1}100%{opacity:1;transform:translate(0,0) rotate(0)}}
+.folio-mini-machine--seal{width:79px;height:79px;opacity:1}
+.folio-mini-machine--seal .name-seal{pointer-events:none}
+/* Alphabet index: an editorial motif rather than a second graph. */
+.alphabet-index{display:grid;grid-template-columns:115px minmax(210px,1fr) minmax(215px,1fr);align-items:center;gap:22px;padding:21px 26px;margin:-10px 0 35px;background:linear-gradient(110deg,#ece6dc,#f8f5ef);border:1px solid #dfd4c6;min-width:0;position:relative}
+.alphabet-index__emblem{display:flex;justify-content:center}
+.alphabet-index__copy{min-width:0}
+.alphabet-index__copy h2{font:700 29px/1.3 var(--serif);margin:5px 0 4px;color:var(--ink)}
+.alphabet-index__copy p{margin:0;line-height:1.7;color:var(--dim);font-size:11px}
+.alphabet-index__examples{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-start}
+.alphabet-index__examples button{padding:8px 12px;border:1px solid #d7ccc0;background:#fcfaf5;font:600 14px var(--serif);color:var(--ink);cursor:pointer}
+.alphabet-index__examples button:hover{border-color:#ae7667;background:#f1e6dc}
+/* Name stamps: quiet, consistent entry identity in index, search and edition. */
+.dictionary-row__head{display:flex;align-items:center;gap:12px;min-width:0}
+.dictionary-row__head strong{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dictionary-detail__title{display:flex;align-items:center;gap:19px;margin:8px 0 19px;position:relative;z-index:2}
+.dictionary-detail__title h2{margin:0;font-size:clamp(38px,5vw,66px);overflow-wrap:anywhere}
+.result-row__id{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:3px;min-width:0}
+.result-row__id .num{font-size:10px;letter-spacing:.06em}
+/* Stable responsive layout for the adopted features. */
+@media(max-width:1080px){.alphabet-index{grid-template-columns:95px minmax(0,1fr);gap:12px}.alphabet-index__examples{grid-column:1/-1}}
+@media(max-width:680px){.alphabet-index{grid-template-columns:75px minmax(0,1fr);padding:14px 13px;margin-bottom:20px}.alphabet-index .name-seal--chapter{--seal-size:74px;--seal-font:31px}.alphabet-index__copy h2{font-size:23px}.alphabet-index__examples button{padding:6px 8px;font-size:12px}.dictionary-detail__title{gap:10px}.dictionary-detail__title .name-seal{--seal-size:68px;--seal-font:22px}.result-row__id{gap:0}}
+@media(max-width:420px){.folio-head{gap:9px}.folio-head h2{font-size:37px}.folio-mini-machine--seal{width:59px;height:59px}.folio-mini-machine--seal .name-seal{--seal-size:59px;--seal-font:19px}}
+@media(prefers-reduced-motion:reduce){.name-seal--join .name-seal__letters em{animation:none!important}}
+/* Preserve v14.1's responsive dictionary layout correction. */
+.dictionary-layout,.dictionary-layout>aside,.dictionary-detail{min-width:0;max-width:100%}
+@media(max-width:850px){.dictionary-layout{grid-template-columns:minmax(0,1fr)!important}}
+@media(min-width:851px){.dictionary-layout{grid-template-columns:minmax(245px,365px) minmax(0,1fr)}}
+/* Keep same-size five-letter words legible. */
+.engine .engine-word[data-letter-count="5"]{letter-spacing:-.12em}

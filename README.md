@@ -22,3 +22,6 @@ Extract **the contents** of the ZIP into the repository root, where `index.html`
 ## Sources and tests
 
 `docs/publications-sources-v14.md`: verified bibliographic links. `docs/qa-v15.md`: validation and limits.
+
+## Version 15.1
+Only addition compared to version 15: local portrait of Chen Avizohar-Hagay (`assets/people/chen-avizohar-hagay.jpg`), referenced by `data/site-content.json`.

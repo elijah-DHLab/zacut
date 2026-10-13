@@ -132,7 +132,9 @@
         "en": "Research team member. A fuller description of her work will be added."
       },
       "group": "research",
-      "profile": ""
+      "profile": "",
+      "portrait_url": "assets/people/chen-avizohar-hagay.jpg",
+      "portrait_delivery": "local"
     },
     {
       "id": "hadar",

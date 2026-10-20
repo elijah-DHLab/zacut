@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /zacut/
+
+Sitemap: https://elijah-dhlab.github.io/zacut/sitemap.xml

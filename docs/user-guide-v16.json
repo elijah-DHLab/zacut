@@ -1,0 +1,116 @@
+{
+  "he": [
+    {
+      "id": "start",
+      "title": "איך מתחילים",
+      "body": "<p>האתר מציע כמה דרכים לקרוא ולחקור את חיבורי ר׳ משה זכות. אין צורך להתחיל בכלי מחקר מתקדם: אפשר לפתוח ערך במהדורה, לבחור שם במילון, או להתחיל בשאלה על הנתונים.</p><div class=\"paths\"><div><span class=\"path-no\">01</span><strong>לקרוא</strong><p>פותחים ערך במהדורה, מפעילים את שכבות התיוג ובוחנים את ההקשר.</p></div><div><span class=\"path-no\">02</span><strong>למצוא</strong><p>מחפשים שם או יישות, ועוברים בין הופעותיהם בטקסטים.</p></div><div><span class=\"path-no\">03</span><strong>לגלות</strong><p>מזהים דפוס באנטומיה או ברשת, וחוזרים לערכים שמאחוריו.</p></div></div>"
+    },
+    {
+      "id": "edition",
+      "title": "המהדורה",
+      "body": "<p>המהדורה היא סביבת הקריאה המרכזית. בחרו בין <em>ספר השמות</em> ל<em>פירוש קצת שמות</em>, ונווטו ברצף הערכים באמצעות הרשימה, קפיצה לאות או קפיצה לערך.</p><h3>קריאה עם תיוגים</h3><p>כפתור <strong>״הצג את כל התיוגים״</strong> מדגיש על גבי הטקסט את המידע המחקרי שסומן בו. אפשר לבודד סוג תיוג מסוים. מוצגים רק סוגי התיוג הקיימים בערך הנוכחי.</p><p>לחיצה על קטע מתויג מציגה את זיהויו. כאשר יש כמה תיוגים חופפים, ניתן לעיין בשכבות המידע החלות על אותו קטע.</p><h3>הרבדים בטקסט</h3><p>רשימת התיוגים נגללת בנפרד מאזור הקריאה, כדי לשמור את הערך מול העיניים. באמצעות <strong>״הצג הופעות״</strong> ניתן לראות ערכים נוספים המקושרים לאותה יישות, או להמשיך לחיפוש המתקדם.</p><div class=\"note\"><b>חשוב לדעת</b><p>הטקסט מוצג כמהדורת תעתיק. סריקות כתבי היד עדיין אינן מסונכרנות עם הערכים באתר.</p></div>"
+    },
+    {
+      "id": "dictionary",
+      "title": "מילון השמות",
+      "body": "<p>המילון מציג את החיבורים כמכלול של ערכים לקסיקליים. אפשר לנווט לפי אות, לחפש שם ולפתוח את הערך המתאים.</p><p>מתוך ערך במילון אפשר לעבור למהדורה, לבחון את התיוגים שלו או להמשיך לחיפוש של היישויות הקשורות אליו.</p><div class=\"note\"><b>שמות זהים אינם בהכרח ערך אחד</b><p>שני ערכים יכולים לשאת אותו שם ראשי, ועדיין להישאר רשומות נפרדות. האתר אינו מאחד אותם אוטומטית.</p></div>"
+    },
+    {
+      "id": "search",
+      "title": "חיפוש אונטולוגי",
+      "body": "<p>החיפוש מאפשר לעבוד עם היישויות המזוהות במאגר, ולא רק עם מחרוזות המילים שבטקסט. אפשר לבחור סוג יישות, כגון שיטת הפקה, מקור מקראי או שם מלאך, ולחפש את הופעותיה.</p><p>אפשר לשלב תנאי חיפוש ולבודד קבוצות ערכים העונות עליהם. התוצאות מקושרות לערכי המהדורה, כדי שאפשר יהיה לבדוק את הראיות.</p><div class=\"note\"><b>מה החיפוש אינו מבטיח?</b><p>הופעה של שני פריטי מידע באותו ערך אינה מוכיחה בהכרח יחס ישיר ביניהם. הממשק מאפשר שאילתות מובנות על המאגר, אך אינו מנוע SPARQL מלא.</p></div>"
+    },
+    {
+      "id": "structure",
+      "title": "מבנה הידע: אנטומיה של מאות ערכים",
+      "body": "<p>בתצוגת <strong>״האנטומיה של מאות ערכים״</strong> כל ערך מיוצג כשורה, והתיוגים מסומנים לפי מיקומם היחסי בתוך הטקסט. כך אפשר לבחון דפוסים שאינם ניכרים בקריאה של ערך בודד.</p><p>אפשר לבחור סוגי תיוג מתוך הקטגוריות הקיימות במאגר, לשנות את סדר הערכים ולפתוח כל ערך במהדורה.</p><h3>שאלות שאפשר לבדוק</h3><ul><li>האם שיטות הפקה מופיעות בדרך כלל בתחילת הערך?</li><li>אילו ערכים עשירים במיוחד בשכבות מידע?</li><li>האם יש הבדלים מבניים בין שני החיבורים?</li></ul><p>הדפוסים החזותיים הם נקודת פתיחה לפרשנות, לא מסקנה על אופן החשיבה של זכות.</p>"
+    },
+    {
+      "id": "network",
+      "title": "אטלס הרשתות",
+      "body": "<p>אטלס הרשתות מציג את המאגר כרשת של <strong>ערכים ויישויות</strong>. כל ערך יכול להיפתח כרשת מקומית של היישויות המתויגות בו; רשת הקורפוס מאפשרת לראות כיצד ערכים שונים נקשרים באמצעות יישויות משותפות.</p><h3>התמצאות ברשת</h3><p>אפשר לגרור את המפה, להתקרב ולהתרחק בזום, לאפס את התצוגה ולבחור צמתים. סוגי היישויות נבדלים בצבע, וניתן להפעיל כמה סוגים יחד או להסתירם.</p><h3>זחילה מערך לערך</h3><ol><li>בחרו ערך ופתחו את הרשת המקומית שלו.</li><li>בחרו יישות הקשורה לערך.</li><li>עברו לערך אחר שבו מופיעה אותה יישות.</li><li>המשיכו לרשת של הערך החדש, או חזרו לשלבים קודמים במסלול.</li></ol><div class=\"note\"><b>כיצד לפרש מרכזיות?</b><p>מספר הקשרים או הערכים שבהם מופיעה יישות הוא מדד של מבנה המאגר. הוא אינו מדד ישיר לחשיבות היסטורית או להשפעה בין מחברים.</p></div>"
+    },
+    {
+      "id": "lab",
+      "title": "מעבדת הנתונים",
+      "body": "<p>מעבדת הנתונים מאפשרת לבחון התפלגויות, שכיחויות וקשרים בין סוגי מידע. אפשר לבחור את קבוצת הערכים שעליה יבוצע הניתוח: המאגר כולו, אחד החיבורים או קבוצת מחקר שנוצרה במהלך העבודה.</p><p>התצוגות הכמותיות מאפשרות לבחור ממד ניתוח, לבחון שכיחויות ולבודד ערכים התואמים לנתון מסוים. ניתן לייצא תוצאות בפורמטים הנתמכים באתר, ובהם CSV, JSON ו־RDF.</p><p>חשוב להבחין בין מספר תיוגים, מספר ערכים שבהם מופיעה יישות ומספר הקשרים השונים שלה. כל מדד עונה על שאלה אחרת.</p>"
+    },
+    {
+      "id": "compare",
+      "title": "השוואת ערכים",
+      "body": "<p>כלי ההשוואה מציג שני ערכים זה לצד זה, לרבות ערכים משני החיבורים. אפשר לבחור את שני הערכים בנפרד או להיעזר בהתאמה לפי שם ראשי.</p><p>התצוגה מציגה את הטקסטים ואת היישויות המתויגות בכל אחד מהם, ומסמנת אילו יישויות משותפות ואילו מופיעות רק באחד הערכים.</p><p>ההתאמה היא לפי סוג היישות ושמה המנורמל. היא אינה מבצעת יישור טקסטואלי אוטומטי ואינה מוכיחה תלות היסטורית בין החיבורים.</p>"
+    },
+    {
+      "id": "cohort",
+      "title": "קבוצות מחקר ומעבר בין ערוצים",
+      "body": "<p>אפשר לצרף ערכים לקבוצת מחקר מתוך המהדורה, החיפוש, ההשוואה או חקירת הרשת. הקבוצה מאפשרת להמשיך לבחון את אותם ערכים בכלים שונים.</p><div class=\"journey\"><span>חיפוש</span><i>←</i><span>קבוצת ערכים</span><i>←</i><span>אנטומיה / רשת</span><i>←</i><span>חזרה לטקסט</span></div><p>לדוגמה, אפשר לחפש ערכים הכוללים מקור מסוים, לבדוק את המבנה שלהם באנטומיה, ולחזור לקריאת הערכים שבהם מופיע הדפוס.</p><p>הבחירה בתצוגה אחת אינה חייבת לשנות אוטומטית את כל האחרות. יש להבחין בין בחירה מקומית לבין קבוצת המחקר הפעילה.</p>"
+    },
+    {
+      "id": "export",
+      "title": "ייצוא ושימוש בנתונים",
+      "body": "<p>בחלק מכלי המחקר אפשר להוריד נתונים ותוצאות ניתוח, לרבות CSV, JSON ו־RDF. אפשר להשתמש בהם להמשך מחקר, להשוואה או לעיבוד חיצוני.</p><p>הנתונים זמינים לשימוש מחקרי ולא־מסחרי בכפוף למתן קרדיט לפרויקט. שימוש מסחרי מחייב אישור נפרד. תנאים לגבי תמונות, סריקות וחומרים של צדדים שלישיים עשויים להיות שונים.</p><p>בעת ציטוט ממצא, מומלץ לציין גם את הערך או הערכים שעליהם הוא מבוסס, ולא להסתפק בתוצאה הכמותית.</p>"
+    },
+    {
+      "id": "interpret",
+      "title": "איך לקרוא את הממצאים",
+      "body": "<p>המערכת מבחינה בין שלוש רמות: <strong>הטקסט</strong>, <strong>התיוג המחקרי</strong> ו<strong>הקשר המחושב</strong>.</p><div class=\"three-levels\"><div><small>01 / TEXT</small><strong>הטקסט</strong><p>הנוסח המופיע במהדורה.</p></div><div><small>02 / ANNOTATION</small><strong>התיוג</strong><p>זיהוי והכרעה מחקרית המקושרים למקום בטקסט.</p></div><div><small>03 / COMPUTATION</small><strong>החישוב</strong><p>קשרים, דמיון ומדדים שנגזרו מן הנתונים.</p></div></div><p>היעדר תיוג אינו מעיד בהכרח על היעדר תופעה בטקסט. דמיון בין ערכים או הופעה משותפת של יישויות אינם מוכיחים כשלעצמם קשר היסטורי. המערכת נועדה להרחיב את אפשרויות החקירה ולסייע לחזור אל הראיות.</p>"
+    }
+  ],
+  "en": [
+    {
+      "id": "start",
+      "title": "Getting started",
+      "body": "<p>The site offers several ways to read and explore the works of R. Moses Zacuto. You can begin with a passage in the edition, a headword in the lexicon, or a question about the data.</p><div class=\"paths\"><div><span class=\"path-no\">01</span><strong>Read</strong><p>Open an entry, turn on annotations, and examine the passage in context.</p></div><div><span class=\"path-no\">02</span><strong>Find</strong><p>Search for a name or entity and follow its occurrences across the texts.</p></div><div><span class=\"path-no\">03</span><strong>Discover</strong><p>Identify a pattern in the anatomy view or network and return to its textual evidence.</p></div></div>"
+    },
+    {
+      "id": "edition",
+      "title": "The edition",
+      "body": "<p>The edition is the main reading environment. Choose between the <em>Book of Names</em> and <em>Commentary on a Few Names</em>, then navigate by entry sequence, initial letter, or entry selector.</p><h3>Reading with annotations</h3><p><strong>Show all annotations</strong> highlights the annotated passages. You can isolate a particular annotation feature. Only features actually present in the selected entry are offered.</p><p>Select an annotated passage to inspect its identification. Where annotations overlap, you can examine the different layers attached to the same text.</p><h3>Textual layers</h3><p>The annotation list scrolls independently from the reading pane. <strong>Show occurrences</strong> reveals other entries linked to the selected entity; you can then continue to advanced search.</p><div class=\"note\"><b>Please note</b><p>The texts are presented as a transcribed edition. Manuscript scans are not yet synchronized with individual entries.</p></div>"
+    },
+    {
+      "id": "dictionary",
+      "title": "The lexicon",
+      "body": "<p>The lexicon presents the works as a collection of lexical entries. Browse by initial letter, search for a name, and open the corresponding entry.</p><p>From an entry, you can move to the edition, inspect its annotations, or search for associated entities.</p><div class=\"note\"><b>Identical headwords need not mean identical entries</b><p>Two entries may share a headword while remaining distinct records. The site does not merge them automatically.</p></div>"
+    },
+    {
+      "id": "search",
+      "title": "Ontological search",
+      "body": "<p>Search works with identified entities, not only literal word strings. Choose an entity type, such as a name-production method, biblical source, or angelic name, and find its occurrences.</p><p>You can combine conditions to form a set of matching entries. Results link back to the edition so that the evidence can be checked.</p><div class=\"note\"><b>What does a match establish?</b><p>Two entities occurring in the same entry do not necessarily have a direct semantic relationship. The interface supports structured queries over the corpus, but is not a full SPARQL engine.</p></div>"
+    },
+    {
+      "id": "structure",
+      "title": "Knowledge structure: anatomy of entries",
+      "body": "<p>In <strong>Anatomy of Entries</strong>, each entry is represented as a row, with annotations positioned according to their location in the text. This helps reveal patterns that are difficult to see when reading one entry at a time.</p><p>Choose from the annotation features actually present in the data, reorder entries, and open any entry in the edition.</p><h3>Questions to explore</h3><ul><li>Do name-production methods tend to appear near the beginning?</li><li>Which entries contain particularly rich annotation layers?</li><li>How do the two works differ structurally?</li></ul><p>Visual patterns are starting points for interpretation, not conclusions about Zacuto’s thinking.</p>"
+    },
+    {
+      "id": "network",
+      "title": "Network atlas",
+      "body": "<p>The network atlas represents the corpus as a network of <strong>entries and entities</strong>. Each entry can be opened as a local network of its annotations; the corpus view shows how entries connect through shared entities.</p><h3>Exploring the map</h3><p>Pan, zoom, reset the view, and select nodes. Entity types are distinguished by color; several types can be displayed together or hidden.</p><h3>Walking from entry to entry</h3><ol><li>Choose an entry and open its local network.</li><li>Select an entity connected to that entry.</li><li>Move to another entry in which the entity occurs.</li><li>Continue exploring or return to an earlier step in your path.</li></ol><div class=\"note\"><b>How should centrality be interpreted?</b><p>The number of connections or entries associated with an entity describes the structure of this dataset. It does not directly measure historical importance or influence.</p></div>"
+    },
+    {
+      "id": "lab",
+      "title": "Data lab",
+      "body": "<p>The data lab supports quantitative exploration of distributions, frequencies, and relationships among information types. Choose whether to analyze the entire corpus, one work, or a research set assembled during your session.</p><p>Quantitative views let you select a dimension, examine frequencies, and isolate entries behind a result. Data can be exported in supported formats, including CSV, JSON, and RDF.</p><p>Annotation counts, the number of entries containing an entity, and the number of its distinct connections are different measures and answer different questions.</p>"
+    },
+    {
+      "id": "compare",
+      "title": "Comparing entries",
+      "body": "<p>The comparison tool displays two entries side by side, including entries from the two different works. Choose each entry independently or use the matching-headword selector.</p><p>The view presents both texts and their annotated entities, indicating which entities are shared and which occur in only one entry.</p><p>Matching uses entity type and normalized name. It is not automatic textual alignment and does not establish historical dependence between the works.</p>"
+    },
+    {
+      "id": "cohort",
+      "title": "Research sets and cross-view navigation",
+      "body": "<p>Entries can be added to a research set from the edition, search, comparison, or network exploration. The set allows the same entries to be examined through different views.</p><div class=\"journey\"><span>Search</span><i>→</i><span>Research set</span><i>→</i><span>Anatomy / network</span><i>→</i><span>Back to text</span></div><p>For example, find entries citing a particular source, examine their structure, and return to the passages behind the pattern.</p><p>A local selection in one view need not automatically alter every other view. Distinguish a local focus from the active research set.</p>"
+    },
+    {
+      "id": "export",
+      "title": "Exporting and using data",
+      "body": "<p>Some research tools allow data and results to be downloaded, including CSV, JSON, and RDF exports, for further analysis or comparison.</p><p>Data are available for scholarly, non-commercial use with appropriate project attribution. Commercial use requires separate permission. Photographs, scans, and third-party materials may have different conditions.</p><p>When citing a finding, identify the underlying entry or entries rather than relying on an aggregate figure alone.</p>"
+    },
+    {
+      "id": "interpret",
+      "title": "Interpreting the results",
+      "body": "<p>The system distinguishes three levels: <strong>text</strong>, <strong>scholarly annotation</strong>, and <strong>computed relationship</strong>.</p><div class=\"three-levels\"><div><small>01 / TEXT</small><strong>Text</strong><p>The wording presented in the edition.</p></div><div><small>02 / ANNOTATION</small><strong>Annotation</strong><p>A scholarly identification attached to a passage.</p></div><div><small>03 / COMPUTATION</small><strong>Computation</strong><p>Connections, similarities, and measures derived from the data.</p></div></div><p>The absence of an annotation does not necessarily mean the absence of a phenomenon. Shared entities or similarities do not by themselves prove historical connections. The tools are designed to extend inquiry and make it easier to return to evidence.</p>"
+    }
+  ]
+}

@@ -21,3 +21,24 @@ Google discovery/indexation is not guaranteed. The published repository and Page
 
 ## Deploy
 Extract the archive contents so `index.html`, `data/`, `assets/`, `entries/` and `sitemap.xml` are at the repository root. Publish from `main` / `(root)` in GitHub Pages. After deployment, verify a concrete entry URL and `sitemap.xml` return HTTP 200.
+
+
+## Version 16 (October 2026)
+- Elijah Lab credit updated for Eliezer Baumgarten (database design and development) in Hebrew and English.
+- Slightly increased the letter spacing in small name seals; font size unchanged.
+- Added bilingual User Guide, Accessibility, Privacy, and Rights & Data Use tabs under About with footer links.
+- This is a draft of the legal/institutional pages pending formal review; no accessibility conformity claim or blanket CC license.
+- The research data and original static entry index pages are unchanged.
+
+## V16.1 UI adjustment
+- Removed User guide, Accessibility, Privacy and Rights links from global footer.
+- About keeps User guide as a separate section. Accessibility, Privacy and Rights are now grouped under a single About tab, with in-page navigation.
+- Historical About links (`?section=accessibility`, `privacy`, `rights`) route to the combined section.
+- No other application/corpus/content changes.
+
+
+## V16.2: local Halle University mark
+- Added `assets/logos/mlu.jpg` from the supplied image (`signet_right.jpg`).
+- Updated the Halle partner `file` entry in `data/site-content.json` to use the local JPG.
+- No other application, page, corpus, search-index, or styling files were modified.
+- The standalone HTML preview embeds the same JPG as a data URI, so it can be opened without network access.

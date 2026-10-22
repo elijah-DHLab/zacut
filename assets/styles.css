@@ -573,3 +573,39 @@ button.chart-row:hover .chart-fill{filter:brightness(1.28);transform:scaleX(.97)
 @media(min-width:851px){.dictionary-layout{grid-template-columns:minmax(245px,365px) minmax(0,1fr)}}
 /* Keep same-size five-letter words legible. */
 .engine .engine-word[data-letter-count="5"]{letter-spacing:-.12em}
+
+/* V16: slight release of the letter spacing in small circular name seals. */
+.name-seal--row .name-seal__letters,.name-seal--result .name-seal__letters{letter-spacing:-.045em}
+.name-seal--row .name-seal__letters[data-letter-count="5"],.name-seal--result .name-seal__letters[data-letter-count="5"]{letter-spacing:-.165em}
+
+/* V16 | About guide and project policies. Scholarly content stays separate from base research interface. */
+.v16-intro{max-width:76ch;margin:0 0 28px;font-size:15px;line-height:1.8;color:var(--ink)}
+.v16-guide{display:grid;grid-template-columns:minmax(185px,225px) minmax(0,1fr);gap:clamp(20px,4vw,62px);align-items:start}
+.v16-toc{position:sticky;top:18px;max-height:calc(100vh - 36px);overflow:auto;border:1px solid var(--line);background:rgba(255,255,255,.35);padding:16px}
+.v16-toc strong{display:block;font-size:12px;letter-spacing:.09em;margin:0 0 12px;color:var(--ink)}
+.v16-toc a{display:flex;gap:9px;align-items:baseline;padding:9px 2px;border-bottom:1px solid var(--line);font-size:12px;line-height:1.5;color:var(--ink);text-decoration:none}
+.v16-toc a span{font:11px Georgia,serif;color:#ae6255}
+.v16-guide-body{min-width:0}.v16-guide-section{padding:0 0 27px;margin:0 0 34px;border-bottom:1px solid var(--line);scroll-margin-top:25px}
+.v16-guide-section h2{font-family:var(--serif);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.5;margin:4px 0 14px}
+.v16-guide-section h3{font-size:19px;font-family:var(--serif);margin:20px 0 8px}.v16-guide-section p{max-width:76ch;line-height:1.85;margin:0 0 12px}
+.v16-guide-section ul,.v16-guide-section ol{padding-inline-start:22px;margin:10px 0 20px}.v16-guide-section li{line-height:1.8;margin-bottom:5px}
+.v16-guide-section .section-index{font:12px Georgia,serif;color:#ae6255}.v16-guide-section .note{background:#fffdf8;border-inline-start:2px solid #ac7061;padding:13px 18px;margin:19px 0}
+.v16-guide-section .paths,.v16-guide-section .three-levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:20px 0}
+.v16-guide-section .paths>div,.v16-guide-section .three-levels>div{background:#fffdf8;border:1px solid var(--line);padding:15px;min-width:0}
+.v16-guide-section .paths strong,.v16-guide-section .three-levels strong{display:block;margin:5px 0}.v16-guide-section .path-no{color:#ae6255;font-family:Georgia,serif}
+.v16-guide-section .journey{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.v16-guide-section .journey span{border:1px solid var(--line);padding:5px 10px}
+.v16-guide-section .journey i{font-style:normal;color:#ae6255}.v16-guide-section .note p{font-size:13px}
+.v16-policy{max-width:900px;padding:4px 0 50px}.v16-policy h2{font:700 clamp(29px,3vw,42px)/1.45 var(--serif);margin:0 0 15px}.v16-policy h3{font:700 20px/1.5 var(--serif);margin:25px 0 8px}
+.v16-policy p,.v16-policy li{line-height:1.9;max-width:78ch}.v16-policy li{margin:5px 0}.v16-policy .v16-notice{border-inline-start:2px solid #ac7061;background:#fffdf8;padding:15px 19px;margin:24px 0}
+.v16-policy .v16-cite{border:1px solid var(--line);background:#fffdf8;padding:18px;font-family:var(--serif);overflow-wrap:anywhere}
+.v16-policy button{cursor:pointer;border:1px solid var(--line);background:#fffdf8;color:var(--ink);padding:9px 15px;margin:8px 0 13px;border-radius:4px}
+.v16-footer-links{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding:15px 0 0;font-size:12px}.v16-footer-links a{color:inherit;text-decoration:none}.v16-footer-links a:hover{text-decoration:underline}
+@media(max-width:850px){.v16-guide{grid-template-columns:1fr}.v16-toc{position:static;max-height:none;overflow:visible}.v16-toc-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 10px}}
+@media(max-width:530px){.v16-toc-links{grid-template-columns:1fr}.v16-guide-section .paths,.v16-guide-section .three-levels{grid-template-columns:1fr}}
+
+/* V16.1: combine legal/informational subsections in About; no footer links. */
+.v16-policies{max-width:980px;padding-bottom:40px}.v16-policies-header{padding:6px 0 24px;border-bottom:1px solid var(--line)}
+.v16-policies-header h2{font:700 clamp(27px,3vw,40px)/1.4 var(--serif);margin:10px 0}.v16-policies-header p{max-width:68ch;line-height:1.85;color:var(--muted)}
+.v16-policies-index{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}.v16-policies-index button{border:1px solid var(--line);padding:9px 15px;background:var(--paper,#fffdf8);color:var(--ink);border-radius:4px;cursor:pointer;font:inherit}
+.v16-policies-index button:hover,.v16-policies-index button:focus-visible{border-color:var(--rust,#ac7061);outline-offset:3px}
+.v16-policies-part{scroll-margin-top:88px;border-bottom:1px solid var(--line);padding:27px 0 5px}.v16-policies-part:last-child{border-bottom:0}

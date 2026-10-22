@@ -92,8 +92,8 @@
         "en": "Dr. · University of Haifa"
       },
       "desc": {
-        "he": "מחקר כתבי היד והמסורות הקבליות ופיתוח סביבת המחקר הדיגיטלית.",
-        "en": "Research on manuscripts and Kabbalistic traditions; digital research environment."
+        "he": "תכנון ופיתוח מסד הנתונים וסביבת המחקר הדיגיטלית; מחקר כתבי היד והמסורות הקבליות.",
+        "en": "Database design and development and the digital research environment; research on manuscripts and Kabbalistic traditions."
       },
       "group": "research",
       "profile": "https://haifa.academia.edu/eliezerbaumgarten",
@@ -367,7 +367,7 @@
       "id": "halle",
       "he": "אוניברסיטת האלה־ויטנברג",
       "en": "Martin Luther University Halle-Wittenberg",
-      "file": "assets/logos/mlu.png",
+      "file": "assets/logos/mlu.jpg",
       "original": "https://blogs.urz.uni-halle.de/mastercgt/files/2026/01/MLU_Wort-Bild-Marke_Zentriert_Schutzraum_RGB-1568x797.jpg",
       "link": "https://www.uni-halle.de/",
       "kind": "partner"
